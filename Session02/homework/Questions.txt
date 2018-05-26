@@ -1,0 +1,29 @@
+What is Boolean? Write down 3 different expression that results a Boolean type (i.e. 5 == 6)
+Boolean is True or False
+ex: 6!=7 is True
+5==5 is True
+3<2 is False
+
+---------------
+What is a flow chart? Draw flow chart for the following code snippet: (you can draw on a paper, take a picture of it)
+if name == “Dinh Quy":
+    print(“Hand some")
+elif name == “Tuan Anh":
+    even_more_handsome = True
+else:
+    webbrowser.open(“https://www.youtube.com/watch?v=04854XqcfCY”)
+
+Chuong trinh se kiem tra lan luot cac dieu kien:
+Neu name la "Dinh Quy", in ra man hinh "handsome"
+Neu nam la "Tuan Anh", gan bien even_more_handsome bang gia tri True
+Trong cac truong hop khac, mo duong link da cho
+
+------------------
+
+What is nested conditionals? Write a piece of code that uses nested conditionals
+
+Cac vong lap long nhau:
+
+for i in range(10):
+	for j in range(i):
+		print(i*j,end='\t')
