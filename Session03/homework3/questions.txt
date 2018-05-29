@@ -1,0 +1,19 @@
+1.
+#using break:
+while True:
+    guess_word = input("\nyour answer: ")
+    if guess_word == word:
+        print("Hura")
+        break
+    else:
+        print("guess again")
+
+2.
+nested list: list in list
+[[1,2,3],"Quy xau vl",[1,4,5]]
+
+list can store both: integers and strings
+
+3.
+l = [1,2,3,4,5]
+l.remove(3)
